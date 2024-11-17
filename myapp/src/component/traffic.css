@@ -1,0 +1,34 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.signal-light{
+
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.red.active{
+    background: red;
+}
+.green.active{
+    background: green;
+}
+.yellow.active{
+    background: yellow;
+}
+
+
+

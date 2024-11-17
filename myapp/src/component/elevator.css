@@ -1,0 +1,43 @@
+
+
+
+.elevator-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elevator-shaft{
+    margin-top: 20px;
+    position: relative;
+    width: 100px;
+    height: 400px;
+    border: 1px solid black;
+    background: grey;
+   
+}
+
+
+.elevator{
+    position: absolute;
+    width: 95%;
+    height: 80px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    /* bottom: 0%; */
+}
+
+
+.controls button{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.elevator.moving{
+    background: orange;
+}

@@ -1,0 +1,29 @@
+
+body{
+    background: gray;
+
+}
+.modal-conatiner{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.modal{
+    padding: 20px;
+    width: 300px;
+    border: 1px solid black;
+    background: whitesmoke;
+}
